@@ -19,6 +19,7 @@ def hello_world():
 def make_predictions(X: List[DataModel]):
     print(X)
     df = pd.DataFrame([x.dict() for x in X])
+
     predicion_model = PredictionModel()
     results = predicion_model.make_predictions(df)
     return results.tolist()
