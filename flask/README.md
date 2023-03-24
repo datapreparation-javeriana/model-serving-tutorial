@@ -1,4 +1,4 @@
-# Model serving tutorial
+# Model serving tutorial (Flask version)
 
 Deployment instructions:
 

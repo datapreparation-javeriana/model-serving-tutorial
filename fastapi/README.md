@@ -1,4 +1,4 @@
-# Model serving tutorial
+# Model serving tutorial (FastAPI version)
 
 Deployment instructions:
 
@@ -34,3 +34,5 @@ Content-Type: application/json
 	}
 ]
 ```
+
+7. It is also possible to test it from the browser going to URL: http://localhost:8000/
