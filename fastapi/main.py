@@ -1,8 +1,8 @@
 from typing import List
 
-import pandas as pd
-
 from fastapi import FastAPI
+
+import pandas as pd
 
 from data_model import DataModel
 from prediction_model import PredictionModel
@@ -12,7 +12,7 @@ app = FastAPI()
 
 
 @app.get("/")
-def read_root():
+def hello_world():
    return { "message": "Hello world" }
 
 @app.post("/predict")
