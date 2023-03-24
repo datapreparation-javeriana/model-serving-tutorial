@@ -2,21 +2,21 @@
 
 Deployment instructions:
 
-1. Install virtualenv: `pip install virtualenv`
+1. Install virtualenv: `pip install virtualenv` o `pip3 install virtualenv`.
 
-2. Create the new environment: `python3 -m venv env`
+2. Create the new environment: `python -m venv env` o `python3 -m venv env`.
 
-3. Activate the environment: `source env/bin/activate`
+3. Activate the environment: `source env/bin/activate` (Mac/Linux) o `.\env\Scripts\activate` (Windows).
 
-4. Install the dependencies: `pip install -r requirements.txt`
+4. Install the dependencies: `pip install -r requirements.txt` o `pip3 install -r requirements.txt`.
 
-5. Start the server: `flask --app main run`
+5. Start the server: `flask --app main run`.
 
 6. Testing the service using a tool like Postman:
 
 ```
 POST /predict HTTP/1.1
-Host: 127.0.0.1:8000
+Host: 127.0.0.1:5000
 Content-Type: application/json
 
 [
