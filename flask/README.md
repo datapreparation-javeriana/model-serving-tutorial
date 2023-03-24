@@ -34,3 +34,5 @@ Content-Type: application/json
 	}
 ]
 ```
+
+7. It is also possible to test it from the browser going to URL: http://localhost:5000/
